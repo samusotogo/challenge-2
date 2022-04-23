@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+   background-color: #1BA1AD;
+   background-image:url(images/bg-pattern-top.svg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenedor{
+background-color: white;
+width: 400px;
+height: 400px;
+position: relative;
+border-radius: 18px;
+}
+
+.contenedor .top{
+    
+    width: 100%;
+    height:35%;
+}
+
+.contenedor .top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.contenedor .foto img{
+    border-radius:  50%;
+   outline: 5px solid  white;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+
+.contenedor .contenido{
+   width: 100%;
+   height: 65%;
+}
+
+.contenedor .contenido .nombre-edad{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.contenedor .contenido .lugar{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.contenedor .contenido .descripcion{
+    width: 100%;
+    height: 146px;
+    text-align: center;
+    
+    
+}
+.contenedor .contenido .descripcion .cifras{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+     
+}
+.contenedor .contenido .descripcion .info{
+    text-align: justify;
+    padding-left: 60px;
+}
