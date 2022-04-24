@@ -80,3 +80,15 @@ border-radius: 18px;
     text-align: justify;
     padding-left: 60px;
 }
+
+@media (max-width: 380px){
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+.contenedor .contenido .descripcion .info{
+    text-align: justify;
+    padding-left: 20px;
+}
+
+}
